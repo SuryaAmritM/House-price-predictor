@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SuryaAmritM/House-price-predictor/blob/main/house_price_predictor.ipynb)
+
 # 🏠 House Price Predictor
 
 This project predicts house prices using machine learning. Given inputs like area, number of bedrooms, location, builder, and property status, it estimates the price using a trained Random Forest model.
@@ -34,9 +36,9 @@ The model was trained on a dataset of real property listings and can be run inte
 
 1. Clone or download this repo
 2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 3. Open `house_price_predictor.ipynb` in Jupyter or Colab
 4. Run the final cell and input property details when prompted
 5. View the predicted price in lakhs of ₹
@@ -45,12 +47,12 @@ The model was trained on a dataset of real property listings and can be run inte
 
 ## 📁 Files in This Repository
 
-| File                        | Description                             |
-|----------------------------|-----------------------------------------|
-| `chennai_house_price.csv`  | Cleaned dataset used for training       |
+| File                          | Description                                   |
+| ----------------------------- | --------------------------------------------- |
+| `chennai_house_price.csv`     | Cleaned dataset used for training             |
 | `house_price_predictor.ipynb` | The complete training and prediction notebook |
-| `requirements.txt`         | Python package dependencies             |
-| `README.md`                | This project overview                   |
+| `requirements.txt`            | Python package dependencies                   |
+| `README.md`                   | This project overview                         |
 
 ---
 
@@ -65,7 +67,6 @@ Enter builder: Casagrand Builder Private Limited
 Enter status (Ready to move / Under Construction): Ready to move
 
 🏠 Predicted Price: ₹58.50 lakhs
-
 
 ---
 
@@ -82,4 +83,3 @@ Enter status (Ready to move / Under Construction): Ready to move
 Built by Surya Amrit M (https://github.com/SuryaAmritM)
 
 ---
-
